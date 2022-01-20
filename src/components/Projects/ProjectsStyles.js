@@ -10,7 +10,7 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
+padding: 3rem 3rem 6rem 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
@@ -27,6 +27,11 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 20px rgba(0, 188, 212, 0.7);
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -92,11 +97,11 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #1976D2;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #00BCD4;
 
 }
 `;
