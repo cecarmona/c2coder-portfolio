@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
-      My name is Carlos Eduardo Carmona Mirabal, I'm 28 years old, I'm from Caracas, Venezuela and I am a software engineer with 6 years of experience in web development.
+      My name is Carlos Eduardo Carmona Mirabal, I'm 28 years old, I'm from Caracas, Venezuela and I am a software engineer with 6 years of experience in web development. I’m very familiar working in agencies with multidisciplinary teams around the world.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
