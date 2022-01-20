@@ -22,10 +22,8 @@ export const RightSection = styled.div`
   width: 100%;
   position: relative;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-
+    opacity: 0;
+    height: 0px;
     margin: 0 auto;
   }
   @media ${(props) => props.theme.breakpoints.md} {
